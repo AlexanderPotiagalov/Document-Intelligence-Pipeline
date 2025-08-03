@@ -24,6 +24,8 @@ Your task is to extract key structured information from the following document t
 - "location": The province, city, or geographic region relevant to the document
 - "date": A specific or approximate date (month/year or range) the policy relates to
 - "keywords": A list of 3–7 key topics, concepts, or issues from the document
+- "species": A list of specific marine animals or fish mentioned in the document (e.g., 'sockeye salmon', 'geoducks')
+- "impact": A brief description of the expected or observed impact of the policy
 
 Be factual and concise. Do not invent information. If something is not mentioned, return null or an empty string.
 

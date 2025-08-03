@@ -1,19 +1,21 @@
 [
   {
     "title": "British Columbia’s Wild Salmon Strategy",
-    "summary": "The document outlines the strategy for sustaining wild salmon populations in British Columbia. The strategy involves engaging experts and stakeholders across the province to develop an action plan. The process includes the development of an options paper, public consultation, creation of a strategic framework, and implementation of the plan.",
+    "summary": "The document outlines British Columbia's strategy for restoring healthy and abundant wild salmon populations. The strategy involves engaging experts and stakeholders across the province to develop an action plan. The process includes the development of an options paper, public consultation, creation of a strategic framework, and implementation of the plan.",
     "location": "British Columbia",
     "date": "July to March (no specific year mentioned)",
     "keywords": [
-      "Wild Salmon Strategy",
-      "public consultation",
+      "wild salmon",
+      "strategy",
+      "public engagement",
       "strategic framework",
       "implementation",
       "Wild Salmon Advisory Council",
-      "Wild Salmon Secretariat",
-      "stakeholder engagement"
+      "Wild Salmon Secretariat"
     ],
+    "species": ["wild salmon"],
+    "impact": "The policy aims to restore healthy and abundant wild salmon populations in British Columbia, which could have positive impacts on the economy, coastal communities, indigenous peoples, and coastal ecosystems.",
     "filename": "British-Columbias-Wild-Salmon-Strategy.txt",
-    "processed_at": "2025-08-02T18:25:06.347122"
+    "processed_at": "2025-08-02T18:48:56.560041"
   }
 ]
