@@ -1,0 +1,9 @@
+
+    .main-header { background: linear-gradient(90deg, #1e3a8a, #06b6d4); padding: 2rem; border-radius: 10px; color: white; text-align: center; }
+    .metric-card, .insight-card, .chart-container, .upload-section { padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 1rem; }
+    .metric-card { background: white; border-left: 5px solid #3b82f6; }
+    .insight-card { background: linear-gradient(135deg, #f0f9ff, #e0f2fe); border-left: 5px solid #0ea5e9; }
+    .upload-section { background: #f8fafc; border: 2px dashed #cbd5e1; }
+    .stButton > button { background: linear-gradient(90deg, #3b82f6, #06b6d4); color: white; border-radius: 8px; }
+    .stButton > button:hover { transform: translateY(-2px); }
+    
