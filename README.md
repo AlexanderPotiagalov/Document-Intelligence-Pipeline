@@ -5,14 +5,13 @@
     </h1>
     <img
       src="readmephotos/preview.png"
-      width="40%"
+      width="22%"
       align="left"
       style="margin-right:15px; margin-top:60px;"
       alt="OceanIntel Preview"
     />
     <p><em>AI-powered fisheries data analysis & policy insight platform</em></p>
     <p>
-      <img src="https://img.shields.io/github/license/AlexanderPotiagalov/OceanIntel?style=for-the-badge&color=6366f1&labelColor=0f0f23&logo=github" alt="License"/>
       <img src="https://img.shields.io/github/last-commit/AlexanderPotiagalov/OceanIntel?style=for-the-badge&color=10b981&labelColor=0f0f23&logo=git" alt="Last Commit"/>
       <img src="https://img.shields.io/github/languages/top/AlexanderPotiagalov/OceanIntel?style=for-the-badge&color=f59e0b&labelColor=0f0f23&logo=python" alt="Top Language"/>
       <img src="https://img.shields.io/badge/POWERED_BY-AI-ff6b6b?style=for-the-badge&labelColor=0f0f23&logo=openai" alt="AI Powered"/>
@@ -118,10 +117,10 @@
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="readmephotos/screenshot1.png" width="30%" style="border-radius: 10px; margin-right: 10px;"/>
-  <img src="readmephotos/screenshot2.png" width="30%" style="border-radius: 10px; margin-right: 10px;"/>
-  <img src="readmephotos/screenshot3.png" width="30%" style="border-radius: 10px; margin-right: 10px;"/>
-  <img src="readmephotos/screenshot4.png" width="30%" style="border-radius: 10px;"/>
+  <img src="readmephotos/screenshot1.png" width="45%" style="border-radius: 10px; margin-right: 10px;"/>
+  <img src="readmephotos/screenshot2.png" width="45%" style="border-radius: 10px; margin-right: 10px;"/>
+  <img src="readmephotos/screenshot3.png" width="45%" style="border-radius: 10px; margin-right: 10px;"/>
+  <img src="readmephotos/screenshot4.png" width="45%" style="border-radius: 10px;"/>
 </div>
 
 <div align="center">
@@ -263,24 +262,18 @@ streamlit run app.py
 
 ```
 OceanIntel/
-├── app.py                      # Main Streamlit application
-├── requirements.txt            # Python dependencies
-├── .env                       # Environment variables
-├── assets/                    # Screenshots and images
-│   ├── preview.png
-│   ├── harvest_chart.png
-│   ├── value_chart.png
-│   └── insights.png
-├── data/                      # Sample datasets
-│   ├── sample_fisheries.csv
-│   └── policy_documents/
-├── src/
-│   ├── data_processing.py     # Data manipulation utilities
-│   ├── ai_analysis.py         # OpenAI integration
-│   ├── visualization.py      # Chart generation
-│   └── pdf_parser.py          # Document processing
-├── docs/                      # Documentation
-└── tests/                     # Unit tests
+├── readmephotos/                  # Images & preview screenshots
+├── data/                    # Default fisheries CSVs
+├── output/                  # GPT summaries, cross-ref JSON, and PNG charts
+├── scripts/
+│   ├── dashboard.py         # Main Streamlit app
+│   ├── extract_pdf_text.py  # PDF→text extraction logic
+│   ├── analyze_texts_with_gpt.py
+│   ├── cross_reference.py
+│   └── data_viz.py
+├── .env.example             # Environment variable template
+├── requirements.txt         # Python dependencies
+└── README.md                
 ```
 
 ---
